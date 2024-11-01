@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 import java.io.BufferedReader;
@@ -8,7 +7,7 @@ import java.io.IOException;
 
 public class WordSearch {
   private static final int SIZE = 10;
-  private static final int WORDCOUNT = 10;
+  // private static final int WORDCOUNT = 10;
   private static final char[][] grid = new char[SIZE][SIZE];
   private static List<String> words = new ArrayList<>();
   private static final Random random = new Random();
